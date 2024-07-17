@@ -1,7 +1,6 @@
 import {auth} from "@clerk/nextjs/server";
 import {redirect} from "next/navigation";
 import {db} from "@/lib/db";
-import {AuditLog} from "@prisma/client";
 import {ActivityItem} from "@/components/activityItem";
 import {Skeleton} from "@/components/ui/skeleton";
 

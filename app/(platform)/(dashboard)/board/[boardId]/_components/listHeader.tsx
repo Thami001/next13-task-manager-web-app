@@ -5,7 +5,6 @@ import {ElementRef, useRef, useState} from "react";
 import {useEventListener} from "usehooks-ts";
 import {FormInput} from "@/components/form/formInput";
 import {useAction} from "@/hooks/useAction";
-import {update} from "lodash";
 import {updateList} from "@/actions/update-list";
 import {toast} from "sonner";
 import {ListOptions} from "@/app/(platform)/(dashboard)/board/[boardId]/_components/listOptions";

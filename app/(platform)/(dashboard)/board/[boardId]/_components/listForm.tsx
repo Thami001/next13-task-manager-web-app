@@ -11,7 +11,6 @@ import {Button} from "@/components/ui/button";
 import {useAction} from "@/hooks/useAction";
 import {createList} from "@/actions/create-list";
 import {toast} from "sonner";
-import {exec} from "node:child_process";
 
 export const ListForm = () => {
     const [isEditing, setIsEditing] = useState(false);

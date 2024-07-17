@@ -1,6 +1,4 @@
 import React from 'react';
-import {db} from "@/lib/db";
-import {auth} from "@clerk/nextjs/server";
 import {Board} from "@prisma/client";
 import {BoardTitleForm} from "@/app/(platform)/(dashboard)/board/[boardId]/_components/boardTitleForm";
 import {BoardOptions} from "@/app/(platform)/(dashboard)/board/[boardId]/_components/boardOptions";

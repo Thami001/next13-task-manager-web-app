@@ -5,7 +5,6 @@ import {ListHeader} from "@/app/(platform)/(dashboard)/board/[boardId]/_componen
 import {ElementRef, useRef, useState} from "react";
 import {CardForm} from "@/app/(platform)/(dashboard)/board/[boardId]/_components/cardForm";
 import {cn} from "@/lib/utils";
-import {Card} from "@prisma/client";
 import {CardItem} from "@/app/(platform)/(dashboard)/board/[boardId]/_components/cardItem";
 import {Draggable, Droppable} from "@hello-pangea/dnd";
 

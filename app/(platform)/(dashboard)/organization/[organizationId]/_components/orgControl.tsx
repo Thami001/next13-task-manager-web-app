@@ -4,7 +4,7 @@ import {useEffect} from "react";
 import {useParams} from "next/navigation";
 import {useOrganizationList} from "@clerk/nextjs";
 
-import React from 'react';
+
 
 export const OrgControl = () => {
     const params = useParams();

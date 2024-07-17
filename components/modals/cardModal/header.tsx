@@ -9,7 +9,6 @@ import {useQueryClient} from "@tanstack/react-query";
 import {useParams} from "next/navigation";
 import {useAction} from "@/hooks/useAction";
 import {updateCard} from "@/actions/update-card";
-import {id} from "postcss-selector-parser";
 import {toast} from "sonner";
 
 interface HeaderProps {

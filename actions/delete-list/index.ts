@@ -5,8 +5,6 @@ import {auth} from "@clerk/nextjs/server";
 import {db} from "@/lib/db";
 import {revalidatePath} from "next/cache";
 import {createSafeAction} from "@/lib/createSafeAction";
-
-import {redirect} from "next/navigation";
 import {DeleteList} from "@/actions/delete-list/schema";
 import {createAuditLog} from "@/lib/createAuditLog";
 import {ACTION, ENTITY_TYPE} from "@prisma/client";
