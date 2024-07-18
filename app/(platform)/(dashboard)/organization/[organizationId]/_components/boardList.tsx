@@ -44,9 +44,9 @@ export const BoardList = async () => {
                         Create New Board
                     </p>
                     <span className={"text-xs"}>
-                        5 remaining
+
                     </span>
-                    <Hint description={`Free Workspaces can have up to 5 open boards. For unlimited boards, upgrade this workspace`} sideOffset={40}>
+                    <Hint description={`Choose an image and a title and click "Create Board" to be automatically diverted to your new board`} sideOffset={40}>
                         <HelpCircle className={"absolute bottom-2 right-2 h-[14px] w-[14px]"}/>
                     </Hint>
                 </div>

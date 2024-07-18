@@ -1,4 +1,4 @@
-import {auth} from "@clerk/nextjs/server";
+ import {auth} from "@clerk/nextjs/server";
 import {notFound, redirect} from "next/navigation";
 import {db} from "@/lib/db";
 import {BoardNavbar} from "@/app/(platform)/(dashboard)/board/[boardId]/_components/boardNavbar";
@@ -43,7 +43,7 @@ const BoardIdLayout = async ({children,params} : { children: React.ReactNode; pa
     }
 
     return (
-        <div className={"relative h-full bg-no-repeat bg-cover bg-center"}  >
+        <div>
             <BoardNavbar data={board}/>
             <div className={"absolute inset-0 bg-black/10"}/>
             <main className={"relative pt-28 h-full"}>

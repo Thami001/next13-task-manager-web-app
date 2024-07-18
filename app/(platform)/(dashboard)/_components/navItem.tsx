@@ -1,6 +1,5 @@
 "use client"
 
-import React from 'react';
 import {AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
 import {cn} from "@/lib/utils";
 import Image from "next/image";
@@ -12,9 +11,9 @@ import {Skeleton} from "@/components/ui/skeleton";
 
 export type Organization = {
     id: string;
-    name: string | undefined;
-    imageUrl: string;
     slug: string;
+    imageUrl: string;
+    name: string;
 }
 
 interface NavItemProps {
@@ -44,11 +43,12 @@ export const NavItem = ({isActive, isExpanded, onExpand, organization} : NavItem
             icon: <Settings className={"h-4 w-4 mr-2"}/>,
             href: `/organization/${organization.id}/settings`
         },
-        {
+
+      /* {
             label: "Billing",
             icon: <CreditCard className={"h-4 w-4 mr-2"}/>,
             href: `/organization/${organization.id}/billing`
-        }
+        } */
     ]
 
     const onClick = (href: string) => {
